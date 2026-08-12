@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 const BROWSERLESS_TOKEN = process.env.BROWSERLESS_TOKEN || null;
-const API_TIMEOUT = parseInt(process.env.API_TIMEOUT || "30000");
+const API_TIMEOUT = parseInt(process.env.API_TIMEOUT || "20000");
 const ENABLE_API_FALLBACK = process.env.ENABLE_API_FALLBACK !== "false";
 
 async function getLyricsWithBrowserless(artist, song) {
