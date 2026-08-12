@@ -1,0 +1,21 @@
+# Environment variables (NEVER push this!)
+.env
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel/
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
