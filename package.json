@@ -1,7 +1,7 @@
 {
   "name": "genius-lyrics-scraper",
   "version": "1.0.0",
-  "description": "Genius lyrics scraper API with Browserless.io - works on Vercel free tier",
+  "description": "Genius lyrics scraper API with Browserless.io",
   "main": "api/lyrics.js",
   "type": "module",
   "scripts": {
@@ -10,9 +10,6 @@
   },
   "dependencies": {
     "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "vercel": "^32.0.0"
   },
   "engines": {
     "node": "20.x"
